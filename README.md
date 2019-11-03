@@ -1,2 +1,2 @@
 # tecnicaltest
-![][Sin título.png]
+![][1]

@@ -3,10 +3,10 @@ var bodyParser = require('body-parser');
 var app = express();
 app.set('view engine', 'ejs');
 //app.use(bodyParser.urlencoded({ extended: false }));
-
+var data = [{item: 'one'},{item: '2'} ];
 app.get('/', (req, res) => {
   
-    res.render('do')
+    res.render('do');
     
 });
 
